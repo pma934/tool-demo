@@ -28,7 +28,16 @@
 </template>
 
 <script>
-// 在这里创建一个h-paged-table组件，不要引用其他东西，就是把el-table包住后自带了分页功能
+let mockData = [];
+for (let i = 0; i < 100; i++) {
+  mockData.push({
+    title: `title${i}`,
+    Introduction: `Introduction${i}`,
+    thumbnail: `thumbnail${i}`,
+    videoLink: `videoLink${i}`,
+  });
+}
+import HPagedTable from "@/components/HPagedTable.vue";
 
 // @ is an alias to /src
 import axios from "axios";
@@ -38,15 +47,18 @@ export default {
   data() {
     return {};
   },
-  components: {},
+  components: {
+    HPagedTable,
+  },
   methods: {
     async listFetch(url, pageSize, currentPage) {
-      console.log(currentPage);
       let employees = await new Promise((resolve, reject) => {
         axios.get("./video.json").then(
           (data) => {
             console.log(data);
-            resolve(data);
+            // resolve(data);
+            let c = this.getMockData(pageSize, currentPage)
+            resolve(c)
           },
           (err) => {
             reject(err);
@@ -55,6 +67,19 @@ export default {
       });
       console.log(employees.data);
       return Promise.resolve(employees.data);
+    },
+    getMockData(pageSize, currentPage) {
+      let start = (currentPage - 1) * pageSize;
+      let end = start + pageSize;
+      let result = {
+        total: mockData.length,
+        data: mockData.slice(start, end),
+        totalPage: Math.ceil(mockData.length / pageSize),
+      };
+      let c = result.data
+      c.length = result.total
+      c.totalPage = result.totalPage
+      return {data: c}
     },
   },
 };
