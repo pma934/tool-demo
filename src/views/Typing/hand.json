@@ -1,0 +1,386 @@
+{
+    "~": [
+        "left-resting-hand",
+        "right-resting-hand"
+    ],
+    "!": [
+        "left-resting-hand",
+        "right-resting-hand"
+    ],
+    "@": [
+        "left-resting-hand",
+        "right-resting-hand"
+    ],
+    "#": [
+        "left-resting-hand",
+        "right-resting-hand"
+    ],
+    "$": [
+        "left-resting-hand",
+        "right-resting-hand"
+    ],
+    "%": [
+        "left-resting-hand",
+        "right-resting-hand"
+    ],
+    "^": [
+        "left-resting-hand",
+        "right-resting-hand"
+    ],
+    "&": [
+        "left-resting-hand",
+        "right-resting-hand"
+    ],
+    "*": [
+        "left-resting-hand",
+        "right-resting-hand"
+    ],
+    "(": [
+        "left-resting-hand",
+        "right-resting-hand"
+    ],
+    ")": [
+        "left-resting-hand",
+        "right-resting-hand"
+    ],
+    "_": [
+        "left-resting-hand",
+        "right-resting-hand"
+    ],
+    "+": [
+        "left-resting-hand",
+        "right-resting-hand"
+    ],
+    "Q": [
+        "left-top-row-5",
+        "right-shift-hand"
+    ],
+    "W": [
+        "left-top-row-4",
+        "right-shift-hand"
+    ],
+    "E": [
+        "left-top-row-3",
+        "right-shift-hand"
+    ],
+    "R": [
+        "left-top-row-2",
+        "right-shift-hand"
+    ],
+    "T": [
+        "left-top-row-1",
+        "right-shift-hand"
+    ],
+    "Y": [
+        "left-shift-hand",
+        "right-top-row-1"
+    ],
+    "U": [
+        "left-shift-hand",
+        "right-top-row-2"
+    ],
+    "I": [
+        "left-shift-hand",
+        "right-top-row-3"
+    ],
+    "O": [
+        "left-shift-hand",
+        "right-top-row-4"
+    ],
+    "P": [
+        "left-shift-hand",
+        "right-top-row-5"
+    ],
+    "{": [
+        "left-shift-hand",
+        "right-top-row-6"
+    ],
+    "}": [
+        "left-shift-hand",
+        "right-top-row-7"
+    ],
+    "|": [
+        "left-shift-hand",
+        "right-top-row-8"
+    ],
+    "A": [
+        "left-home-row-5",
+        "right-shift-hand"
+    ],
+    "S": [
+        "left-home-row-4",
+        "right-shift-hand"
+    ],
+    "D": [
+        "left-home-row-3",
+        "right-shift-hand"
+    ],
+    "F": [
+        "left-home-row-2",
+        "right-shift-hand"
+    ],
+    "G": [
+        "left-home-row-1",
+        "right-shift-hand"
+    ],
+    "H": [
+        "left-shift-hand",
+        "right-home-row-1"
+    ],
+    "J": [
+        "left-shift-hand",
+        "right-home-row-2"
+    ],
+    "K": [
+        "left-shift-hand",
+        "right-home-row-3"
+    ],
+    "L": [
+        "left-shift-hand",
+        "right-home-row-4"
+    ],
+    ":": [
+        "left-shift-hand",
+        "right-home-row-5"
+    ],
+    "\"": [
+        "left-shift-hand",
+        "right-home-row-6"
+    ],
+    "Z": [
+        "left-bottom-row-5",
+        "right-shift-hand"
+    ],
+    "X": [
+        "left-bottom-row-4",
+        "right-shift-hand"
+    ],
+    "C": [
+        "left-bottom-row-3",
+        "right-shift-hand"
+    ],
+    "V": [
+        "left-bottom-row-2",
+        "right-shift-hand"
+    ],
+    "B": [
+        "left-bottom-row-1",
+        "right-shift-hand"
+    ],
+    "N": [
+        "left-shift-hand",
+        "right-bottom-row-1"
+    ],
+    "M": [
+        "left-shift-hand",
+        "right-bottom-row-2"
+    ],
+    "<": [
+        "left-shift-hand",
+        "right-bottom-row-3"
+    ],
+    ">": [
+        "left-shift-hand",
+        "right-bottom-row-4"
+    ],
+    "?": [
+        "left-shift-hand",
+        "right-bottom-row-5"
+    ],
+    "`": [
+        "left-resting-hand",
+        "right-resting-hand"
+    ],
+    "1": [
+        "left-resting-hand",
+        "right-resting-hand"
+    ],
+    "2": [
+        "left-resting-hand",
+        "right-resting-hand"
+    ],
+    "3": [
+        "left-resting-hand",
+        "right-resting-hand"
+    ],
+    "4": [
+        "left-resting-hand",
+        "right-resting-hand"
+    ],
+    "5": [
+        "left-resting-hand",
+        "right-resting-hand"
+    ],
+    "6": [
+        "left-resting-hand",
+        "right-resting-hand"
+    ],
+    "7": [
+        "left-resting-hand",
+        "right-resting-hand"
+    ],
+    "8": [
+        "left-resting-hand",
+        "right-resting-hand"
+    ],
+    "9": [
+        "left-resting-hand",
+        "right-resting-hand"
+    ],
+    "0": [
+        "left-resting-hand",
+        "right-resting-hand"
+    ],
+    "-": [
+        "left-resting-hand",
+        "right-resting-hand"
+    ],
+    "=": [
+        "left-resting-hand",
+        "right-resting-hand"
+    ],
+    "q": [
+        "left-top-row-5",
+        "right-resting-hand"
+    ],
+    "w": [
+        "left-top-row-4",
+        "right-resting-hand"
+    ],
+    "e": [
+        "left-top-row-3",
+        "right-resting-hand"
+    ],
+    "r": [
+        "left-top-row-2",
+        "right-resting-hand"
+    ],
+    "t": [
+        "left-top-row-1",
+        "right-resting-hand"
+    ],
+    "y": [
+        "left-resting-hand",
+        "right-top-row-1"
+    ],
+    "u": [
+        "left-resting-hand",
+        "right-top-row-2"
+    ],
+    "i": [
+        "left-resting-hand",
+        "right-top-row-3"
+    ],
+    "o": [
+        "left-resting-hand",
+        "right-top-row-4"
+    ],
+    "p": [
+        "left-resting-hand",
+        "right-top-row-5"
+    ],
+    "[": [
+        "left-resting-hand",
+        "right-top-row-6"
+    ],
+    "]": [
+        "left-resting-hand",
+        "right-top-row-7"
+    ],
+    "\\": [
+        "left-resting-hand",
+        "right-top-row-8"
+    ],
+    "a": [
+        "left-home-row-5",
+        "right-resting-hand"
+    ],
+    "s": [
+        "left-home-row-4",
+        "right-resting-hand"
+    ],
+    "d": [
+        "left-home-row-3",
+        "right-resting-hand"
+    ],
+    "f": [
+        "left-home-row-2",
+        "right-resting-hand"
+    ],
+    "g": [
+        "left-home-row-1",
+        "right-resting-hand"
+    ],
+    "h": [
+        "left-resting-hand",
+        "right-home-row-1"
+    ],
+    "j": [
+        "left-resting-hand",
+        "right-home-row-2"
+    ],
+    "k": [
+        "left-resting-hand",
+        "right-home-row-3"
+    ],
+    "l": [
+        "left-resting-hand",
+        "right-home-row-4"
+    ],
+    ";": [
+        "left-resting-hand",
+        "right-home-row-5"
+    ],
+    "'": [
+        "left-resting-hand",
+        "right-home-row-6"
+    ],
+    "z": [
+        "left-bottom-row-5",
+        "right-resting-hand"
+    ],
+    "x": [
+        "left-bottom-row-4",
+        "right-resting-hand"
+    ],
+    "c": [
+        "left-bottom-row-3",
+        "right-resting-hand"
+    ],
+    "v": [
+        "left-bottom-row-2",
+        "right-resting-hand"
+    ],
+    "b": [
+        "left-bottom-row-1",
+        "right-resting-hand"
+    ],
+    "n": [
+        "left-resting-hand",
+        "right-bottom-row-1"
+    ],
+    "m": [
+        "left-resting-hand",
+        "right-bottom-row-2"
+    ],
+    ",": [
+        "left-resting-hand",
+        "right-bottom-row-3"
+    ],
+    ".": [
+        "left-resting-hand",
+        "right-bottom-row-4"
+    ],
+    "/": [
+        "left-resting-hand",
+        "right-bottom-row-5"
+    ],
+    "\n": [
+        "left-resting-hand",
+        "enter-hand"
+    ],
+    " ": [
+        "left-resting-hand",
+        "space-hand"
+    ]
+}

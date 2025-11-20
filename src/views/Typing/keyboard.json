@@ -1,0 +1,452 @@
+{
+    "keyboardRow1": [
+        {
+            "value": [
+                "~",
+                "`"
+            ],
+            "ascii":[],
+            "class": "key-duo"
+        },
+        {
+            "value": [
+                "!",
+                "1"
+            ],
+            "ascii":[],
+            "class": "key-duo"
+        },
+        {
+            "value": [
+                "@",
+                "2"
+            ],
+            "ascii":[],
+            "class": "key-duo"
+        },
+        {
+            "value": [
+                "#",
+                "3"
+            ],
+            "ascii":[],
+            "class": "key-duo"
+        },
+        {
+            "value": [
+                "$",
+                "4"
+            ],
+            "ascii":[],
+            "class": "key-duo"
+        },
+        {
+            "value": [
+                "%",
+                "5"
+            ],
+            "ascii":[],
+            "class": "key-duo"
+        },
+        {
+            "value": [
+                "^",
+                "6"
+            ],
+            "ascii":[],
+            "class": "key-duo"
+        },
+        {
+            "value": [
+                "&",
+                "7"
+            ],
+            "ascii":[],
+            "class": "key-duo"
+        },
+        {
+            "value": [
+                "*",
+                "8"
+            ],
+            "ascii":[],
+            "class": "key-duo"
+        },
+        {
+            "value": [
+                "(",
+                "9"
+            ],
+            "ascii":[],
+            "class": "key-duo"
+        },
+        {
+            "value": [
+                ")",
+                "0"
+            ],
+            "ascii":[],
+            "class": "key-duo"
+        },
+        {
+            "value": [
+                "_",
+                "-"
+            ],
+            "ascii":[],
+            "class": "key-duo"
+        },
+        {
+            "value": [
+                "+",
+                "="
+            ],
+            "ascii":[],
+            "class": "key-duo"
+        },
+        {
+            "value": [
+                "Backspace"
+            ],
+            "ascii":[],
+            "class": "key-right key-bottom special--backspace"
+        }
+    ],
+    "keyboardRow2": [
+        {
+            "value": [
+                "TAB"
+            ],
+            "ascii":[],
+            "class": "key-left key-bottom special--tab"
+        },
+        {
+            "value": [
+                "Q"
+            ],
+            "ascii":[81,113],
+            "class":"key-letter"
+        },
+          {
+            "value": [
+                "W"
+            ],
+            "ascii":[87,119],
+            "class":"key-letter"
+        },
+          {
+            "value": [
+                "E"
+            ],
+            "ascii":[69,101],
+            "class":"key-letter"
+        },
+          {
+            "value": [
+                "R"
+            ],
+            "ascii":[82,114],
+            "class":"key-letter"
+        },
+          {
+            "value": [
+                "T"
+            ],
+            "ascii":[84,116],
+            "class":"key-letter"
+        },
+          {
+            "value": [
+                "Y"
+            ],
+            "ascii":[89,121],
+            "class":"key-letter"
+        },
+          {
+            "value": [
+                "U"
+            ],
+            "ascii":[85,117],
+            "class":"key-letter"
+        },
+          {
+            "value": [
+                "I"
+            ],
+            "ascii":[73,105],
+            "class":"key-letter"
+        },
+          {
+            "value": [
+                "O"
+            ],
+            "ascii":[79,111],
+            "class":"key-letter"
+        },
+          {
+            "value": [
+                "P"
+            ],
+            "ascii":[80,112],
+            "class":"key-letter"
+        },
+        {
+            "value": [
+                "{",
+                "["
+            ],
+            "ascii":[123,91],
+            "class": "key-duo"
+        },
+        {
+            "value": [
+                "}",
+                "]"
+            ],
+            "ascii":[125,93],
+            "class": "key-duo"
+        },
+        {
+            "value": [
+                "|",
+                "\\"
+            ],
+            "ascii":[124,92],
+            "class": "key-duo special--right-two"
+        }
+    ],
+    "keyboardRow3": [
+        {
+            "value": [
+                "Caps Lock"
+            ],
+            "ascii":[],
+            "class": "key-left key-bottom special--capsLock"
+        },
+        {
+            "value": [
+                "A"
+            ],
+            "ascii":[65,97],
+            "class":"key-letter"
+        },
+          {
+            "value": [
+                "S"
+            ],
+            "ascii":[83,115],
+            "class":"key-letter"
+        },
+          {
+            "value": [
+                "D"
+            ],
+            "ascii":[68,100],
+            "class":"key-letter"
+        },
+          {
+            "value": [
+                "F"
+            ],
+            "ascii":[70,102],
+            "class":"key-letter"
+        },
+          {
+            "value": [
+                "G"
+            ],
+            "ascii":[71,103],
+            "class":"key-letter"
+        },
+          {
+            "value": [
+                "H"
+            ],
+            "ascii":[72,104],
+            "class":"key-letter"
+        },
+          {
+            "value": [
+                "J"
+            ],
+            "ascii":[74,106],
+            "class":"key-letter"
+        },
+          {
+            "value": [
+                "K"
+            ],
+            "ascii":[75,107],
+            "class":"key-letter"
+        },
+          {
+            "value": [
+                "L"
+            ],
+            "ascii":[76,108],
+            "class":"key-letter"
+        },
+        {
+            "value": [
+                ":",
+                ";"
+            ],
+            "ascii":[58,59],
+            "class": "key-duo"
+        },
+        {
+            "value": [
+                "\"",
+                "'"
+            ],
+            "ascii":[34,39],
+            "class": "key-duo"
+        },
+        {
+            "value": [
+                "Enter"
+            ],
+            "ascii":[10],
+            "class": "key-right key-bottom special--enter"
+        }
+    ],
+    "keyboardRow4": [
+        {
+            "value": [
+                "Shift"
+            ],
+            "ascii":[89,72,78,85,74,77,73,75,60,79,76,62,80,58,63,123,34,125,124],
+            "class": "key-left key-bottom special--shift"
+        },
+        {
+            "value": [
+                "Z"
+            ],
+            "ascii":[90,122],
+            "class":"key-letter"
+        },
+          {
+            "value": [
+                "X"
+            ],
+            "ascii":[88,120],
+            "class":"key-letter"
+        },
+          {
+            "value": [
+                "C"
+            ],
+            "ascii":[67,99],
+            "class":"key-letter"
+        },
+          {
+            "value": [
+                "V"
+            ],
+            "ascii":[86,118],
+            "class":"key-letter"
+        },
+          {
+            "value": [
+                "B"
+            ],
+            "ascii":[66,98],
+            "class":"key-letter"
+        },
+          {
+            "value": [
+                "N"
+            ],
+            "ascii":[78,110],
+            "class":"key-letter"
+        },
+          {
+            "value": [
+                "M"
+            ],
+            "ascii":[77,109],
+            "class":"key-letter"
+        },
+        {
+            "value": [
+                "<",
+                ","
+            ],
+            "ascii":[60,44],
+            "class": "key-duo"
+        },
+        {
+            "value": [
+                ">",
+                "."
+            ],
+            "ascii":[62,46],
+            "class": "key-duo"
+        },
+        {
+            "value": [
+                "?",
+                "/"
+            ],
+            "ascii":[63,47],
+            "class": "key-duo"
+        },
+        {
+            "value": [
+                "Shift"
+            ],
+            "ascii":[84,71,66,82,70,86,69,68,67,87,83,88,81,65,90],
+            "class": "key-right key-bottom special--shift"
+        }
+    ],
+    "keyboardRow5": [
+        {
+            "value": [
+                "ctrl"
+            ],
+            "ascii":[],
+            "class": "key-left key-bottom special--ctrl-alt"
+        },
+        {
+            "value": [
+                "alt"
+            ],
+            "ascii":[],
+            "class": "key-left key-bottom special--ctrl-alt"
+        },
+        {
+            "value": [
+                "cmd"
+            ],
+            "ascii":[],
+            "class": "key-left key-bottom special--cmd"
+        },
+        {
+            "value": [
+                " "
+            ],
+            "ascii":[32],
+            "class": "special--space"
+        },{
+            "value": [
+                "cmd"
+            ],
+            "ascii":[],
+            "class": "key-right key-bottom special--cmd"
+        },{
+            "value": [
+                "alt"
+            ],
+            "ascii":[],
+            "class": "key-right key-bottom special--ctrl-alt"
+        },
+      
+        {
+            "value": [
+                "ctrl"
+            ],
+            "ascii":[],
+            "class": "key-right key-bottom special--ctrl-alt"
+        }
+    ]
+}

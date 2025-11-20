@@ -1,0 +1,51 @@
+[class*=" icon-"],
+[class^=icon-] {
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+.icon-login_logo {
+    width: 342px;
+    height: 58px;
+    background-image: url("./logo.svg");
+}
+.el-button--primary {
+    background: -webkit-gradient(linear, left top, right top, from(#455eec), to(#455eec));
+    background: -o-linear-gradient(left, #455eec 0, #455eec 100%);
+    background: linear-gradient(90deg, #455eec 0, #455eec);
+    border: none !important;
+    font-size: 16px;
+    border-color: #455eec;
+    background-color: #455eec;
+    color: #fff;
+}
+.el-button:active:not(.is-disabled),
+.el-button:hover:not(.is-disabled) {
+    border-color: #455eec;
+    background: #fff;
+    color: #455eec;
+}
+.el-button--primary:hover:not(.is-disabled) {
+    border-color: #6a7ef0;
+    background: #6a7ef0;
+    color: #fff;
+}
+.el-button--primary:active:not(.is-disabled) {
+    outline: none;
+}
+.el-button--primary.is-active,
+.el-button--primary:active:not(.is-disabled) {
+    border-color: #586eee;
+    background: #586eee;
+    color: #fff;
+}
+.el-button--primary:focus:not(.is-disabled),
+.el-button--primary:hover:not(.is-disabled) {
+    background: linear-gradient(90deg, #6a7ef0 0, #6a7ef0);
+}
+.el-button--primary:active:not(.is-disabled) {
+    background: linear-gradient(90deg, #3e55d4 0, #3e55d4);
+}
+
+.el-form-item[hide-star] .el-form-item__required-right{
+    display: none;
+}
