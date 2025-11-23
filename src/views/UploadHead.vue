@@ -462,12 +462,12 @@ export default {
     // 生成五角星路径
     generatePentagramPath(radius, ctx) {
       // 五角星的外接圆半径
-      const outerRadius = radius;
+      const outerRadius = radius * 1.05;
       // 五角星的内接圆半径（内部尖角到中心的距离）
       const innerRadius = outerRadius * 0.382; // 黄金比例的倒数约为0.382
 
       const centerX = radius;
-      const centerY = radius;
+      const centerY = radius * 1.05;
 
       // 计算五角星顶点
       let shapePath = [];
@@ -494,23 +494,24 @@ export default {
 
     // 生成心形路径
     generateHeartPath(radius, ctx) {
+      // 心形的绘制 - 调整为正方形中最大尺寸
       const centerX = radius;
       const centerY = radius;
-      const size = radius * 0.8; // 心形大小，稍微缩小一点以适应正方形
+      const size = radius * 1.4; // 增大尺寸以达到正方形中的最大尺寸
 
       // 心形由两个圆弧和一条曲线组成
       // 左半部分
-      ctx.moveTo(centerX, centerY - size * 0.5);
+      ctx.moveTo(centerX, centerY - size * 0.25);
       ctx.bezierCurveTo(
-        centerX - size, centerY - size * 1.2, // 控制点1
-        centerX - size, centerY + size * 0.2,  // 控制点2
-        centerX, centerY + size * 0.8          // 终点
+        centerX + size * 0.5, centerY - size,
+        centerX + size * 1.3, centerY + size * 0.1,
+        centerX, centerY + size * 0.7
       );
       // 右半部分
       ctx.bezierCurveTo(
-        centerX + size, centerY + size * 0.2,  // 控制点1
-        centerX + size, centerY - size * 1.2,  // 控制点2
-        centerX, centerY - size * 0.5          // 终点
+        centerX - size * 1.3, centerY + size * 0.1,
+        centerX - size * 0.5, centerY - size,
+        centerX, centerY - size * 0.25
       );
     },
 
