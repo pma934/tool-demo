@@ -1,19 +1,12 @@
 <template>
   <div class="createVideoConfig">
     <div class="float-button-group">
-      <el-button :radius="true" icon="h-icon-add" @click="addItem" />
-      <el-button :radius="true" icon="h-icon-download" @click="download" />
+      <el-button :radius="true" icon="el-icon-plus" @click="addItem" />
+      <el-button :radius="true" icon="el-icon-download" @click="download" />
     </div>
     <div class="content">
-      <video-config-form
-        class="video-config-form"
-        v-for="(d, i) in timeKey"
-        :key="d"
-        :video="config[i]"
-        :index="i"
-        @set-thumbnail="saveThumbnail"
-        @delete-item="deleteItem"
-      ></video-config-form>
+      <video-config-form class="video-config-form" v-for="(d, i) in timeKey" :key="d" :video="config[i]" :index="i"
+        @set-thumbnail="saveThumbnail" @delete-item="deleteItem"></video-config-form>
       <div class="add-item" @click="addItem">
         <span>ADD ITEM</span>
       </div>
@@ -79,18 +72,17 @@ export default {
         confirmButtonText: "确定",
         cancelButtonText: "取消",
         type: "question",
-        onConfirm: () => {
-          let that = this;
-          this.zip.file("video_list.json", JSON.stringify(this.config));
-          this.zip.generateAsync({ type: "blob" }).then(function (content) {
-            saveAs(content, "video_list_config.zip");
-          });
-          that.$message({
-            type: "success",
-            message: "生成配置文件成功!",
-          });
-        },
-        onCancel: () => {},
+      }).then(() => {
+        let that = this;
+        this.zip.file("video_list.json", JSON.stringify(this.config));
+        this.zip.generateAsync({ type: "blob" }).then(function (content) {
+          saveAs(content, "video_list_config.zip");
+        });
+        that.$message({
+          type: "success",
+          message: "生成配置文件成功!",
+        });
+      }).catch(() => {
       });
     },
     init() {
@@ -113,11 +105,13 @@ export default {
     box-shadow: 0 2px 12px 0 rgba(94, 100, 133, 0.5);
     display: flex;
     flex-direction: column;
-    border-radius: 32px;
+    border-radius: 12px;
+
     button {
       margin: 8px;
     }
   }
+
   .content {
     padding-top: 16px;
     display: flex;
@@ -126,9 +120,11 @@ export default {
     justify-content: center;
     flex-wrap: wrap;
   }
+
   .video-config-form {
     margin-bottom: 16px;
   }
+
   .add-item {
     width: 900px;
     height: 60px;
@@ -139,11 +135,13 @@ export default {
     font-size: 48px;
     color: #9e9e9e;
     font-weight: bold;
+
     &:hover {
       border-color: #e72528;
       background-color: #fff;
       color: #e72528;
     }
+
     &:active {
       border-color: #d2373a;
       background-color: #fff;

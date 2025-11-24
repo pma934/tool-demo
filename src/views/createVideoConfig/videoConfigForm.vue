@@ -3,7 +3,7 @@
     <header>
       <el-button
         @click="deleteItem"
-        icon="h-icon-close"
+        icon="el-icon-close"
         :radius="true"
         size="mini"
       ></el-button>
@@ -57,7 +57,7 @@
             v-model="countryListSearch"
           ></el-input>
           <el-scrollbar
-            style="height: calc(100% - 28px)"
+            style="height: calc(100% - 32px)"
             wrapStyle="height:100%; overflow-x:hidden; padding-left: 14px;"
           >
             <el-checkbox-group
@@ -83,7 +83,7 @@
         </div>
         <div class="translation-box">
           <div class="translation-checkbox-group">
-            <el-scrollbar wrapStyle="height:100%; overflow-x:hidden;">
+            <el-scrollbar wrapStyle="height:100%; overflow-x:hidden;"  style="height: calc(100% - 2px)">
               <el-checkbox-group
                 v-model="translationCheckboxValue"
                 size="small"
@@ -179,13 +179,12 @@ export default {
         confirmButtonText: "确定",
         cancelButtonText: "取消",
         type: "question",
-        onConfirm: () => {
-          this.$emit("delete-item", {
+      }).then(() => {
+        this.$emit("delete-item", {
             index: this.index,
             thumbnail: this.oldthumbnail,
           });
-        },
-        onCancel: () => {},
+      }).catch(() => {
       });
     },
   },
