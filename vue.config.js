@@ -1,6 +1,7 @@
 const StaticCountPlugin = require('./plugin/staticCountPlugin.js')
 
 module.exports = {
+    publicPath: './', // 添加相对路径配置，确保GitHub Pages能正常访问静态资源
     configureWebpack: {
         plugins: [new StaticCountPlugin()],
         devtool: 'source-map' // 生成source map
