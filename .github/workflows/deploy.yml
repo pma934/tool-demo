@@ -1,4 +1,4 @@
-name: Build and Deploy
+name: 构建和部署
 
 on:
   push:
@@ -7,28 +7,30 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     
     steps:
-    - name: Checkout code
+    - name: 检出代码
       uses: actions/checkout@v3
       
-    - name: Set up Node.js
+    - name: 设置Node.js环境
       uses: actions/setup-node@v3
       with:
         node-version: '18.20.8'
         
-    - name: Install pnpm
+    - name: 安装pnpm包管理器
       uses: pnpm/action-setup@v2
       with:
         version: latest
         
-    - name: Install dependencies
+    - name: 安装项目依赖
       run: pnpm install
       
-    - name: Build project
+    - name: 构建项目
       run: pnpm run build
       
-    - name: Deploy to GitHub Pages
+    - name: 部署到GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
