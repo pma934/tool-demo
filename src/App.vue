@@ -24,7 +24,7 @@ export default {
   },
   data() {
     return {
-      notShowNav:['/login','/config']
+      notShowNav:['/login','/config','/uploadHead','/typing']
     };
   },
 };
