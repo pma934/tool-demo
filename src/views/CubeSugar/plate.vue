@@ -175,7 +175,7 @@ export default {
         sugarNumbers: {
             handler(newVal, oldVal) {
                 console.log('sugarNumbers 变化了', newVal, oldVal);
-                this.clear()
+                this.clearOrInterrupt()
             },
             deep: true
         }
