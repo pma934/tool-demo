@@ -54,6 +54,12 @@ const routes = [{
         name: 'xlsxTest',
         component: () =>
             import('../views/xlsxTest/xlsxTest.vue')
+    },
+    {
+        path: '/cubeSugar',
+        name: 'CubeSugar',
+        component: () =>
+            import('../views/CubeSugar/index.vue')
     }
 ]
 

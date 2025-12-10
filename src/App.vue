@@ -8,7 +8,8 @@
       <router-link to="/typing">Typing</router-link>|
       <router-link to="/config">Config</router-link>|
       <router-link to="/listenersTest">ListenersTest</router-link>|
-      <router-link to="/xlsxTest">xlsxTest</router-link>
+      <router-link to="/xlsxTest">xlsxTest</router-link>|
+      <router-link to="/cubeSugar">CubeSugar</router-link>
     </div>
     <router-view />
   </div>
