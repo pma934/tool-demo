@@ -1,16 +1,16 @@
 <template>
-  <div id="app">
-    <div id="nav" v-if="display">
-      <router-link to="/">paged-table-test</router-link>|
-      <router-link to="/three">Three</router-link>|
-      <router-link to="/login">Login</router-link>|
-      <router-link to="/uploadHead">UploadHead</router-link>|
-      <router-link to="/typing">Typing</router-link>|
-      <router-link to="/config">Config</router-link>|
-      <router-link to="/listenersTest">ListenersTest</router-link>|
-      <router-link to="/xlsxTest">xlsxTest</router-link>|
-      <router-link to="/cubeSugar">CubeSugar</router-link>
-    </div>
+  <div id="app" v-loading="this.$route.path === '/'">
+      <div id="nav" v-if="display">
+        <router-link to="/pageTable">paged-table-test</router-link>|
+        <router-link to="/three">Three</router-link>|
+        <router-link to="/login">Login</router-link>|
+        <router-link to="/uploadHead">UploadHead</router-link>|
+        <router-link to="/typing">Typing</router-link>|
+        <router-link to="/config">Config</router-link>|
+        <router-link to="/listenersTest">ListenersTest</router-link>|
+        <router-link to="/xlsxTest">xlsxTest</router-link>|
+        <router-link to="/cubeSugar">CubeSugar</router-link>
+      </div>
     <router-view />
   </div>
 </template>
@@ -19,13 +19,13 @@
 export default {
   name: "app",
   computed: {
-    display(){
-      return this.notShowNav.indexOf(this.$route.path) === -1
+    display() {
+      return this.$route.path !== '/' && this.notShowNav.indexOf(this.$route.path) === -1
     }
   },
   data() {
     return {
-      notShowNav:['/login','/config','/uploadHead','/typing']
+      notShowNav: ['/login', '/config', '/uploadHead', '/typing', '/cubeSugar']
     };
   },
 };
@@ -39,6 +39,7 @@ export default {
   text-align: center;
   color: #2c3e50;
 }
+
 #app,
 body,
 html {

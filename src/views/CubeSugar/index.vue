@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="center">
     <section class="sugar-selector-section">
       <h2>选择方糖</h2>
       <p>限制输入参数小于40！当前总方糖数量：<i style="color: red;">{{ totalSugar }}</i></p>
@@ -53,10 +53,17 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .sugar-grid {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+  justify-content: center;
 
 
   .sugar-item {

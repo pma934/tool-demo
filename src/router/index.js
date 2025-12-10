@@ -4,8 +4,13 @@ import pagedTableTest from '../views/paged-table-test.vue'
 
 Vue.use(VueRouter)
 
-const routes = [{
+const routes = [
+    {
         path: '/',
+        redirect: '/pageTable'
+    },
+    {
+        path: '/pageTable',
         name: 'paged-table-test',
         component: pagedTableTest,
         // redirect: (to) => {

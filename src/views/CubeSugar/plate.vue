@@ -7,7 +7,7 @@
         <el-button type="primary" @click="clearOrInterrupt">清除/中断</el-button>
         <el-card class="list-card">
             <template v-if="progress > 0">
-                <el-progress type="circle" :percentage="progress.toFixed(1)"></el-progress>
+                <el-progress type="circle" :percentage="+progress.toFixed(1)"></el-progress>
                 <!-- <p>当前计算进度：{{ progress.toFixed(1) }}%</p> -->
             </template>
             <template v-if="count > 0">
